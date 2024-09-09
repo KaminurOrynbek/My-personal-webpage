@@ -1,13 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeceb9;
+            color: #606676;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #606676;
+            margin-bottom: 20px;
+        }
+        .hobby {
+            margin: 40px 0;
+        }
+        .hobby-description {
+            font-style: italic;
+            color: #606676;
+            margin-top: 10px;
+        }
+        .hobby-photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .hobby-photos img {
+            max-width: 30%;
+            border-radius: 8px;
+        }
+        .hobby-video {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hobby-video video {
+            width: 50%;
+            max-width: 300px;
+            border-radius: 8px;
+            border: 4px solid #987D9A;
+        }
+    </style>
 </head>
 <body>
+<div class="container">
+    <h1>My Hobbies</h1>
 
+    <div class="hobby">
+        <h2>Photography</h2>
+        <p class="hobby-description">Capturing nature through my camera.</p>
+        <div class="hobby-photos">
+            <img src="../Assets/photo1.jpg" alt="Photography 1">
+            <img src="../Assets/photo2.jpg" alt="Photography 2">
+            <img src="../Assets/photo3.jpg" alt="Photography 3">
+            <img src="../Assets/photo4.jpg" alt="Photography 3">
+            <img src="../Assets/photo5.jpg" alt="Photography 3">
+            <img src="../Assets/photo6.jpg" alt="Photography 3">
+        </div>
+        <div class="hobby-video">
+            <video controls>
+                <source src="../Assets/video1.MOV" type="video/mp4">
+                Your browser does not support the video.</video>
+            <video controls>
+                <source src="../Assets/video2.MOV" type="video/mp4">
+                Your browser does not support the video tag.</video>
+            <video controls>
+                <source src="../Assets/Video3.MOV" type="video/mp4">
+                Your browser does not support the video tag.</video>
+            <video controls>
+                <source src="../Assets/video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.</video>
+        </div>
+    </div>
+
+    <div class="hobby">
+        <h2>Reading</h2>
+        <p class="hobby-description">Diving into different worlds through books.</p>
+        <div class="hobby-photos">
+            <img src="../Assets/book1.jpg" alt="Reading 1">
+            <img src="../Assets/book2.jpg" alt="Reading 2">
+            <img src="../Assets/book3.jpg" alt="Reading 3">
+            <img src="../Assets/book4.jpg" alt="Reading 3">
+            <img src="../Assets/book5.jpg" alt="Reading 3">
+            <img src="../Assets/book6.jpg" alt="Reading 3">
+        </div>
+    </div>
+
+    <div class="hobby">
+        <h2>Watching movie</h2>
+        <p class="hobby-description">Escaping into stories, exploring emotions, and experiencing different worlds through movies.</p>
+        <div class="hobby-photos">
+            <img src="../Assets/movie1.jpg" alt="Watching Movie 1">
+            <img src="../Assets/movie2.jpg" alt="Watching Movie 1">
+            <img src="../Assets/movie3.jpg" alt="Watching Movie 1">
+            <img src="../Assets/movie4.jpg" alt="Watching Movie 1">
+            <img src="../Assets/movie5.jpg" alt="Watching Movie 1">
+            <img src="../Assets/movie6.jpg" alt="Watching Movie 1">
+        </div>
+    </div>
+    <div>
+        <a href="contactme.html">Contact Me</a>
+        <a href="home.html">Back to Home</a>
+    </div>
+</div>
 </body>
 </html>

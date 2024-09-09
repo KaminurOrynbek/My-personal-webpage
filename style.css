@@ -1,159 +1,97 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #eeceb9; /* Light beige background */
-    color: #987d9a; /* Muted mauve for text */
+    background-color: #eeceb9;
 }
 
 header {
-    background-color: #bb9ab1; /* Soft pink */
+    background-color: #bb9ab1;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 16px;
     position: fixed;
     width: 100%;
     top: 0;
 }
 
 header h2 {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 32px;
 }
 
 section {
-    background-color: #eeceb9; /* Same as body background */
-    margin: 2rem auto;
-    padding: 2rem;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 800px;
+    margin: 36px auto;
+    padding: 36px;
     text-align: center;
 }
 
 section img {
+    margin-top: 27px;
     width: 100%;
     max-width: 400px;
     border-radius: 10%;
-    border: 4px solid #987D9A; /* Soft pink */
-    margin-top: 30px;
+    border: 4px solid #987D9A;
 }
 
 section h2 {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    color: #606676; /* Dark grey-blue for the title */
+    font-size: 24px;
+    margin: 16px 0;
+    color: #606676;
 }
 
 .personal-details {
     list-style: none;
-    padding: 0;
 }
 
 .personal-details h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: #606676; /* Dark grey-blue for section headers */
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #606676;
 }
 
 .personal-details li {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-    color: #606676; /* Dark grey-blue for list items */
-}
-
-nav {
-    background-color: #987d9a; /* Muted mauve */
-    padding: 1rem 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav li {
-    margin: 0 1rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: 19px;
+    margin: 8px;
+    color: #606676;
 }
 
 footer {
-    background-color: #bb9ab1; /* Soft pink */
+    background-color: #bb9ab1;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 16px;
     position: fixed;
     width: 100%;
     bottom: 0;
 }
 
-footer p {
-    margin: 0;
-}
-
 #mbti img {
     width: 300px;
     height: 260px;
-    margin-top: 10px;
-    border: 4px solid #987D9A; /* Matching border color */
-}
-
-#values {
-    margin-top: 2rem;
+    border: 4px solid #987D9A;
 }
 
 .values-text {
-    font-size: 1.3rem; /* Larger font size for better visibility */
-    font-style: italic; /* Italicized text */
-    color: #606676; /* Dark grey-blue for text */
-    padding: 1rem;
-    background-color: #fefbd8; /* Light background color for contrast */
-    border-radius: 8px; /* Rounded corners */
-    display: inline-block; /* To fit the content size */
-    position: relative; /* Positioning for the attribution */
+    font-size: 21px;
+    font-style: italic;
+    color: #606676;
+    padding: 16px;
+    background-color: #fefbd8;
+    border-radius: 8px;
+    display: inline-block;
+
 }
 
 .quote-attribution {
     display: block;
-    font-size: 1rem; /* Slightly smaller font size */
-    font-style: italic; /* Italicized text */
-    color: #987d9a; /* Muted mauve for the attribution */
-    margin-top: 10px; /* Spacing above the attribution */
-    text-align: right; /* Right-align the attribution */
+    font-size: 16px;
+    font-style: italic;
+    color: #987d9a;
+    margin-top: 10px;
+    text-align: right;
 }
 
-#other-pages {
-    margin-top: 2rem;
-}
 
-.other-pages-links {
-    list-style: none;
-    padding: 0;
-}
-
-.other-pages-links li {
-    font-size: 1.2rem; /* Font size for list items */
-    margin: 0.5rem 0;
-}
-
-.other-pages-links a {
-    color: #606676; /* Dark grey-blue for links */
-    text-decoration: none;
-    font-family: 'Georgia', serif; /* Alternative font */
-    border-bottom: 1px solid #606676; /* Solid underline for links */
-}
-
-.other-pages-links a:hover {
-    color: #987d9a; /* Muted mauve on hover */
-}
